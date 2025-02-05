@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#lixiButton {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+}
+
+#moneyOptions {
+    margin-top: 20px;
+}
+
+.moneyOption {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
